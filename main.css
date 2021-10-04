@@ -1,0 +1,58 @@
+/* GLOBAL */
+
+:root {
+    box-sizing: border-box;
+}
+
+*, 
+::before, 
+::after {
+    box-sizing: inherit;
+    margin: 0; 
+}
+
+body {
+    height: 100vh; 
+    
+    background-color: #000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+/* CREDENTIALS */
+
+.credentials #submit {
+}
+
+/* PLAYERS LIST */
+
+.players {
+    background-color: #000;
+    color: #fff; 
+    font-size: 1.5rem; 
+    
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player {
+    flex: 1 1 100%; 
+    width: 100%; 
+    
+    background-color: #ccc;
+    border: 2px solid #000; 
+    
+    display: flex; 
+    justify-content: space-around;
+}
+
+.name {
+    color: #00f; 
+}
+
+/* MESSAGES */
+
+#messages {
+    color: #fff; 
+}

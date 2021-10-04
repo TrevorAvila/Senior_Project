@@ -5,15 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trevor App</title>
+    
+    <link rel="stylesheet" href="main.css">
+    <script type="module" src="/scripts/main.js"></script>
 </head>
 <body>
     
-    <ul id = "messages"></ul>
+    <ul id = "messages">Sample</ul>
     <input id = "textbox" type="text">
     <button id = "button">Send</button>
 
-    <script src="messaging.js"></script>
-
-
+    <div class="players">
+        <div class="welcome-message">
+            Please log in
+        </div>
+        <div class="credentials">
+            <input id="credential-email" type="text" placeholder="YOUR EMAIL">
+            <input id="credential-password" type="text" placeholder="YOUR PASSWORD">
+            <button id="submit">
+                Submit
+            </button>
+        </div>
+    </div>
 </body>
 </html>
